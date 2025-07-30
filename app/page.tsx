@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import TextBlock from "@/components/TextBlock";
 import { ReactLenis } from "lenis/react";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="bg-neutral-100 text-neutral-900">
       <ReactLenis root />
       <Hero />
+      <TextBlock />
     </main>
   );
 }

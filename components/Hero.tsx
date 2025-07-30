@@ -4,9 +4,10 @@ import gsap, { ScrollTrigger, SplitText } from "gsap/all";
 import Image from "next/image";
 import { useRef } from "react";
 
+gsap.registerPlugin(ScrollTrigger, SplitText);
+
 export default function Hero() {
   const heroSection = useRef(null);
-  gsap.registerPlugin(ScrollTrigger, SplitText);
 
   useGSAP(
     () => {
@@ -37,7 +38,7 @@ export default function Hero() {
           ".hero-image",
           {
             opacity: 0,
-            y: gsap.utils.random(50, 100),
+            y: 100,
           },
           {
             opacity: 1,
@@ -61,11 +62,13 @@ export default function Hero() {
       });
       const heroImages = gsap.utils.toArray(".hero-image");
       heroImages.forEach((heroImage) => {
-        parallaxTimeline.to(
+        parallaxTimeline.fromTo(
           heroImage as gsap.TweenTarget,
           {
+            scale: 1,
+          },
+          {
             scale: 1.15,
-            y: gsap.utils.random(-100, -50),
             ease: "none",
           },
           0
