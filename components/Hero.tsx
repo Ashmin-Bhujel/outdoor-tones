@@ -56,7 +56,7 @@ export default function Hero() {
           start: "top top",
           end: "bottom top",
           scrub: true,
-          markers: true,
+          markers: false,
         },
       });
       const heroImages = gsap.utils.toArray(".hero-image");
@@ -64,7 +64,7 @@ export default function Hero() {
         parallaxTimeline.to(
           heroImage as gsap.TweenTarget,
           {
-            scale: 1.5,
+            scale: 1.15,
             y: gsap.utils.random(-100, -50),
             ease: "none",
           },
@@ -81,7 +81,7 @@ export default function Hero() {
   return (
     <section
       ref={heroSection}
-      className="relative flex min-h-screen w-full items-center justify-center overflow-x-clip bg-neutral-100"
+      className="relative flex min-h-screen w-full items-center justify-center overflow-x-clip"
     >
       {/* Hero title */}
       <h1 className="hero-title z-10 text-9xl font-bold tracking-tight">

@@ -3,7 +3,7 @@ import { ReactLenis } from "lenis/react";
 
 export default function Home() {
   return (
-    <main className="h-[200vh]">
+    <main className="bg-neutral-100 text-neutral-900">
       <ReactLenis root />
       <Hero />
     </main>
