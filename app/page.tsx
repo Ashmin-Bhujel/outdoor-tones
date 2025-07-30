@@ -1,3 +1,4 @@
+import FullImage from "@/components/FullImage";
 import Hero from "@/components/Hero";
 import TextBlock from "@/components/TextBlock";
 import { ReactLenis } from "lenis/react";
@@ -8,6 +9,7 @@ export default function Home() {
       <ReactLenis root />
       <Hero />
       <TextBlock />
+      <FullImage />
     </main>
   );
 }

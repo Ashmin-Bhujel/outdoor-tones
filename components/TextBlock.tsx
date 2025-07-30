@@ -29,9 +29,9 @@ export default function TextBlock() {
         y: 32,
         opacity: 0,
         ease: "expo.out",
-        duration: 2,
+        duration: 3,
         stagger: {
-          amount: 0.5,
+          amount: 1,
         },
       });
 

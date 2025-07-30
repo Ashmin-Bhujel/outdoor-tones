@@ -77,7 +77,6 @@ export default function Hero() {
     },
     {
       scope: heroSection,
-      dependencies: [],
     }
   );
 
