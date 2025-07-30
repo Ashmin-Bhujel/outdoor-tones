@@ -49,8 +49,8 @@ export default function TextBlock() {
       <p className="text-content max-w-[44ch] px-16 text-justify text-5xl leading-snug tracking-tight">
         Outdoor Tones is committed to motivating everyone to embrace the
         outdoors. We believe that seeking the thrill of outdoor exploration is
-        key to our health. That's why we're empowering you to feel confident,
-        vibrant, and primed for #OutdoorLiving at its finest.
+        key to our health. That&apos;s why we&apos;e empowering you to feel
+        confident, vibrant, and primed for #OutdoorLiving at its finest.
       </p>
     </section>
   );
