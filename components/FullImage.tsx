@@ -58,9 +58,9 @@ export default function FullImage() {
 
       <div className="full-image-overlay absolute inset-0 bg-neutral-900/50"></div>
 
-      <div className="full-image-text absolute inset-0 mx-auto flex max-w-4xl flex-col items-center justify-center gap-4 text-center text-neutral-100">
-        <h3 className="text-8xl font-bold tracking-tight">2025 collection</h3>
-        <p className="text-4xl">
+      <div className="full-image-text absolute inset-0 mx-auto flex max-w-4xl flex-col justify-center gap-4 text-left text-neutral-100">
+        <h3 className="text-8xl tracking-tight">2025 collection</h3>
+        <p className="text-3xl">
           Our new collection is everything you need for your next adventure.
           Made to be flexible, breathable and long lasting so you can enjoy more
           of the #OutdoorLiving.

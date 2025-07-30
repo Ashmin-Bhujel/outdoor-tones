@@ -1,3 +1,4 @@
+import End from "@/components/End";
 import FullImage from "@/components/FullImage";
 import Hero from "@/components/Hero";
 import TextBlock from "@/components/TextBlock";
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <TextBlock />
       <FullImage />
+      <End />
     </main>
   );
 }
